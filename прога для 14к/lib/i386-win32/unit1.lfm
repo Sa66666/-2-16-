@@ -1,0 +1,93 @@
+object Form1: TForm1
+  Left = 149
+  Height = 490
+  Top = 130
+  Width = 672
+  Caption = 'Form1'
+  ClientHeight = 490
+  ClientWidth = 672
+  LCLVersion = '1.8.4.0'
+  object Edit1: TEdit
+    Left = 40
+    Height = 23
+    Top = 32
+    Width = 128
+    TabOrder = 0
+    Text = 'фамилия'
+  end
+  object Edit2: TEdit
+    Left = 200
+    Height = 23
+    Top = 32
+    Width = 128
+    TabOrder = 1
+    Text = 'имя'
+  end
+  object Edit3: TEdit
+    Left = 360
+    Height = 23
+    Top = 32
+    Width = 128
+    TabOrder = 2
+    Text = 'отчество'
+  end
+  object Edit4: TEdit
+    Left = 40
+    Height = 23
+    Top = 104
+    Width = 128
+    TabOrder = 3
+    Text = 'телефон'
+  end
+  object Edit5: TEdit
+    Left = 200
+    Height = 23
+    Top = 104
+    Width = 128
+    TabOrder = 4
+    Text = 'email'
+  end
+  object ListBox1: TListBox
+    Left = 40
+    Height = 80
+    Top = 160
+    Width = 128
+    Columns = 2
+    ItemHeight = 0
+    TabOrder = 5
+  end
+  object Edit6: TEdit
+    Left = 278
+    Height = 111
+    Top = 272
+    Width = 210
+    AutoSize = False
+    TabOrder = 6
+  end
+  object Button1: TButton
+    Left = 40
+    Height = 25
+    Top = 424
+    Width = 123
+    Caption = 'оформить заявку'
+    OnClick = Button1Click
+    TabOrder = 7
+  end
+  object Label1: TLabel
+    Left = 40
+    Height = 15
+    Top = 288
+    Width = 110
+    Caption = 'итоговая стоимость'
+    ParentColor = False
+  end
+  object Button2: TButton
+    Left = 200
+    Height = 25
+    Top = 424
+    Width = 128
+    Caption = 'очистить форму'
+    OnClick = Button2Click
+    TabOrder = 8
+  end
+end
